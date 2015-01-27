@@ -1,0 +1,91 @@
+.outershell {
+	background-color: darkgray;
+	height: 100%;
+	padding: 5%;
+}
+.innershell {
+	background-color: black;
+	height: 100%;
+	border-bottom-left-radius: 80px;
+	border-bottom-right-radius: 80px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	padding: 10px;
+}
+.clocktext {
+	color: red;
+	font-size: 180px;
+
+}
+
+.ampmindicator {
+	color: red;
+	visibility: hidden;
+}
+
+.whateverautois {
+	color: red;
+	font-size: 60px;
+	position: absolute;
+	top: 125px;
+	left: 0px;
+}
+
+.frequencies{
+	color: white;
+	position: absolute;
+	top: 250px;
+	right: 300px;
+	margin-right: 20px;
+}
+.leftlabels, .autolabels{
+	color: gray;
+	width: 70px;
+	display: block;
+
+}
+.leftlabels{
+	height: 50px;
+
+}
+
+.container{
+	height: 300px;
+	width: 800px;
+	margin: 0 auto;
+}
+.clock{
+	height: 100%;
+
+}
+.clockscreen {
+	position: absolute;
+	top: 50px;
+	right: 220px;
+}
+
+span {
+	margin-right: 20px;
+	
+}
+
+.amlabelfrequencies span:first-child, .fmlabelfrequencies span:first-child{
+	margin-right: 60px;
+}
+.amlabelfrequencies span:last-child{
+	margin-left: 60px;
+
+}
+.fmlabelfrequencies span:last-child{
+	margin-left: 100px;
+	
+}
+
+.autolabels {
+	height: 100px;
+	padding-top: 80px; 
+}
+.leftlabels {
+	padding-top: 30px;
+
+}
